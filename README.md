@@ -6,8 +6,15 @@ City Bank Payment Gateway Implementation using NodeJs
 
 # How to start ?
 ## Pay Payment
-At first run ```npm install```. Now server is ready to start.
-To start the server hit ```npm start```
+At first run on your terminal & type these commands on your terminal & hit enter/return
+```
+npm install
+```.
+Now server is ready to start.
+To start the server type on your terminal & hit enter/return
+```
+npm start
+```
 Open browser & hit `http://localhost:3000`. Now a request will send to city bank gateway to initiate create order session. If this request will successful, you will get a redirect url, orderId, sessionId; Here redirectUrl is needed to hit on browser. Now you will see Payment page of City bank. You will need to fill all the fields properly. Then submit the request. 
 If your payment will approved, then you will get the response on `http://localhost:3000/approved`. 
 If you payment will denied then you will get response on `http://localhost:3000/denied`. 
