@@ -1,7 +1,7 @@
 # City Bank Payment Gateway
 City Bank Payment Gateway Implementation using NodeJs
 
-# How to setup ?
+# Environment Setup
 - Coming soon . . .
 
 # Server Setup
