@@ -14,8 +14,8 @@ City Bank Payment Gateway Implementation using NodeJs
 > npm start
 ```
 
-# How to start ?
-# Pay payment through Gateway
+# Gateway API
+## Pay payment through Gateway
 
 1. Open your browser & type on the url :
 ```
@@ -49,7 +49,7 @@ Now you will get this response & retrieve order information from app.js & api wi
 /canceled
 ```
 
-# Get Payment Information
+## Get Payment Information
 > To get existing payment information you need to type on your browser:
 ```
 http://localhost:3000/payment?orderId='XXXX'&sessionId='XXXXXXXXXXXX'
