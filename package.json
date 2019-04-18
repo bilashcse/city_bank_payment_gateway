@@ -1,0 +1,26 @@
+{
+  "name": "city_bank_payment_gateway",
+  "version": "0.0.1",
+  "description": "City Bank Payment Gateway Implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilashcse/city_bank_payment_gateway.git"
+  },
+  "author": "Bilash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilashcse/city_bank_payment_gateway/issues"
+  },
+  "homepage": "https://github.com/bilashcse/city_bank_payment_gateway#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "xml2json": "^0.11.2"
+  }
+}
