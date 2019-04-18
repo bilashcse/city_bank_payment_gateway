@@ -1,17 +1,20 @@
 # City Bank Payment Gateway
 City Bank Payment Gateway Implementation using NodeJs
 
-# How to setup ?
-- Coming soon . . .
+### Requirements
+    node >= 10.10+
+    
+### Installation
+    Coming Soon . . . . 
 
-# How to start ?
-## Pay Payment
-At first run on your terminal & type these commands on your terminal & hit enter/return
+### How to start ?
+### Pay Payment
+At first type these command on your terminal & hit enter/return to install dependencies
     ```
     npm install
     ```
 Now server is ready to start.
-To start the server type on your terminal & hit enter/return
+To start the server type this command on your terminal & hit enter/return
     ```
     npm start
     ```
@@ -20,7 +23,7 @@ If your payment will approved, then you will get the response on `http://localho
 If you payment will denied then you will get response on `http://localhost:3000/denied`. 
 Similarly if payment will canceled, then you will get response on `http://localhost:3000/canceled` with payment details information.
 
-## Get Payment Information
+### Get Payment Information
 If you want to get your payment information, hit 
 `http://localhost:3000/payment?orderId='XXXX'&sessionId='XXXXXXXXXXXX'` on your browser. If this request will successful, you will get payment info against those orderId & sessionId.
 
