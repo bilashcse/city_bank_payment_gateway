@@ -22,7 +22,25 @@ app.get('/', async (req, res) => {
 
         res.json({
             isError: false,
+            orderId: sessionInfo.OrderID,
+            sessionId: sessionInfo.SessionID,
             redirectUrl: `${sessionInfo.URL}?OrderID=${sessionInfo.OrderID}&SessionID=${sessionInfo.SessionID}`
+        });
+
+    } catch(err) {
+        res.json({
+            isError: true,
+            message: err
+        });
+    }
+});
+
+app.get('/payment', async (req, res) => {
+    try {
+        const paymentInfo = await helper.getOrderInformation(req.query);
+        res.json({
+            isError: false,
+            paymentInfo
         });
 
     } catch(err) {
