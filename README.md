@@ -17,7 +17,7 @@ City Bank Payment Gateway Implementation using NodeJs
 # How to start ?
 # Pay payment through Gateway
 
-1. Open your browser & type on the url : 
+1. Open your browser & type on the url :
 ```
 > http://localhost:3000
 ```
