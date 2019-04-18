@@ -2,7 +2,7 @@ const rp = require('request-promise');
 const parser = require('xml2json');
 const port = 3000;
 const configs = {
-    merchantId: '11122333',
+    merchantId: 'XXXXXXXX',
     host: `http://localhost:7743`,
     approveUrl: `http://localhost:${port}/approved`,
     cancelUrl: `http://localhost:${port}/canceled`,
