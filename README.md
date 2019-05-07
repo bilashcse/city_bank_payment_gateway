@@ -2,7 +2,7 @@
 City Bank Payment Gateway Implementation using NodeJs
 
 # Environment Setup
-- Coming soon . . .
+- Install Stunnel & configure stunnel. Configuration will be found from city bank. Contact with them.
 
 # Server Setup
 1. To install dependencies type this command on terminal
